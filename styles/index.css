@@ -18,26 +18,24 @@ body{
     gap: 10px;
     display: flex;
     margin: 10px;
-
+    border-radius: 10px;
 }
 .box1, .box2, .box3{
     width: 100px;
     height: 100px;
     background-color: #9D0208;
+    border-radius: 10px;
 }
 .container1{
     align-items: flex-end;
     justify-content: flex-start;
-    
 }
 .container2{
     justify-content: center;
     align-items: stretch;
-
-    }
+ }
 .container2 >div{
     height: auto;
-
 }
 .container3{
     justify-content:flex-end;
@@ -47,7 +45,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
 }
 .container4 .box3{
     align-self: flex-end;
@@ -55,19 +52,40 @@ body{
 .container5{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    font-family:;
-    
+    align-items: baseline;
+    font-family:"Roboto", sans-serif; 
 }
 .container5 .box2{
-    height: 80px;
+    height: 64px;
+    justify-content: center;
 }
 .container5 .box1,.container5.box3{
     align-items: stretch;
+    height: 120px;
 }
 .container5 .box1, .container5 .box3{
     height: 140px;
 }
-
-
+.container5>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFFFFF ;
+    padding-top: 20px;
+}
+.container5 .box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.container6 .box2{
+    flex-grow: 2;
+    justify-content: space-around;
+}
 
