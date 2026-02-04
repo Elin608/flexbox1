@@ -12,7 +12,7 @@ body{
 }
 .container{
     width: 40%;
-    min-height: 150px;
+    min-height: 160px;
     background-color:#F48C06 ;
     padding: 20px;
     gap: 10px;
@@ -25,8 +25,8 @@ body{
     height: 100px;
     background-color: #9D0208;
 }
-.box1{
-    justify-items: flex-end;
+.container1{
     align-items: flex-end;
+    justify-content: flex-start;
     
 }
