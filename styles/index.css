@@ -1,0 +1,20 @@
+body{
+    background-color: #370617;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 20px;
+    padding: 20px;
+    min-height: 100vg;
+    justify-content: center;
+}
+.container{
+    width: 40%;
+    min-height: 150px;
+    background-color:#F48C06 ;
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    margin: 10px;
+
+}
