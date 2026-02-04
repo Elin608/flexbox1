@@ -30,3 +30,44 @@ body{
     justify-content: flex-start;
     
 }
+.container2{
+    justify-content: center;
+    align-items: stretch;
+
+    }
+.container2 >div{
+    height: auto;
+
+}
+.container3{
+    justify-content:flex-end;
+    align-items: center;
+}
+.container4{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.container4 .box3{
+    align-self: flex-end;
+}
+.container5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:;
+    
+}
+.container5 .box2{
+    height: 80px;
+}
+.container5 .box1,.container5.box3{
+    align-items: stretch;
+}
+.container5 .box1, .container5 .box3{
+    height: 140px;
+}
+
+
+
